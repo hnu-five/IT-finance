@@ -19,7 +19,7 @@ public class SpringTestApplication {
     @GetMapping("/hello")
     @RequestMapping(value="/hello", method= RequestMethod.GET)
     public String helloDemo(){
-        return "Heallo my demo project";
+        return "Hello my demo project";
     }
 }
 
